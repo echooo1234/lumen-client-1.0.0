@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "lumen",
+  "version": "1.0.0",
+  "name": "Lumen Client",
+  "description": "Modular Fabric client tailored for DonutSMP.",
+  "authors": [
+    "EchoPvP"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/lumen/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.lumen.LumenClient"
+    ]
+  },
+  "mixins": [
+    "lumen.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "1.20.x",
+    "java": "17",
+    "fabric-api": "*"
+  }
+}
